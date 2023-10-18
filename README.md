@@ -1,6 +1,6 @@
 # munchmates_vendor
 
-A new Flutter project.
+This is a part of the MunchMates app. Vendors will use this to monitor their orders and bills.
 
 ## Getting Started
 
