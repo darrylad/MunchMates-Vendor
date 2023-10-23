@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:munchmates_vendor/constants.dart';
+import 'package:munchmates_vendor/universal.dart';
 
 import 'package:munchmates_vendor/main.dart';
 
@@ -56,9 +56,7 @@ class _LoginPageState extends State<LoginPage> {
                       Navigator.pushReplacement(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => MyHomePage(
-                                    colorScheme: colorScheme,
-                                  )));
+                              builder: (context) => const MyHomePage()));
                     },
                     child: const Text('Next')),
               ],
